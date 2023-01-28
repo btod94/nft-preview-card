@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END OF CSS RESET */
+
+
+*{
+    font-family: Outfit;
+}
+
+    body {
+        background-color: hsl(217, 54%, 11%);
+        box-sizing: border-box;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin:0;
+        padding:0;
+    }
+
+    .wrapper{
+        display:flex;
+        flex-direction: column;
+        width:15.63rem;
+        background-color: hsl(216, 50%, 16%);
+        padding:1.3rem;
+        border-radius:1rem;
+
+        box-shadow:
+        0px 20px 4px 16px hsl(217, 54%, 10%),
+        0px 16px 30px 26px hsl(215, 57%, 10%);
+         
+    }
+
+    .img-container img{
+        width:100%;
+        display:block;
+        border-radius:1rem;
+    }
+
+
+    .content-container{
+        color:hsl(0, 0%, 100%);
+        font-weight: 600;
+
+    }
+
+    .content-container>h1{
+        padding:1rem 0;
+    }
+
+    .content-container>p{
+        color:hsl(215, 51%, 70%);
+        font-weight: 300;
+        line-height: 1.3;
+        font-size: 0.9rem;
+        padding-bottom:1rem;
+    }
+
+    .crypto{
+        display:flex;
+        align-items:center;
+    }
+
+    .crypto-ico{
+    margin-right:0.3rem;
+    }
+
+    .crypto > p{
+        color:hsl(178, 100%, 50%);
+        font-weight:400;
+    }
+
+
+    .time-left{
+        display:flex;
+        flex-grow:1;
+        justify-content: flex-end;
+        color:hsl(215, 51%, 70%);
+    }
+
+    .time-left img{
+        margin-right:0.3rem;
+    }
+
+
+    hr{
+        width:100%;
+        border: 0;
+        height: 1px;
+        background:hsl(215, 32%, 27%);
+        margin:1rem 0;
+    }
+
+    .creator{
+        display: flex;
+        align-items: center;
+        padding-bottom:0.5rem;
+        font-weight: 300;
+        font-size:0.9rem;
+    }
+
+    .creator img{
+        width:10%;
+        border-radius:100%;
+        border:1px solid #fff;
+        margin-right:0.8rem;
+    }
+
+    .creator>p{
+        color:hsl(215, 51%, 70%);
+        margin-right:0.3rem;
+    }
+
+    .creator > span{
+        color:#fff;
+    }
+
+    .attribution{
+        font-family: Outfit;
+        margin-top:2.5rem;
+        text-align: center;
+    }
+
+   
+
+
+  
+
+  
+
